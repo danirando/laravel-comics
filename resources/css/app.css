@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-height: 120px;
+}
+
+header .row img {
+    max-width: 100px;
+    /* non supera la larghezza del contenitore */
+    height: auto;
+    /* mantiene proporzioni originali */
+    display: block;
+    /* evita spazi bianchi sotto l’immagine */
+}
+
+header .row ul {
+    font-size: 0.5rem;
+
+}
